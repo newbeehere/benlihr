@@ -153,6 +153,7 @@ nav.navbar.navbar-default {
 .menu__item {
 	display: block;
 	margin: 1em 0;
+  font-size:15px;
 }
 
 .menu__link {
@@ -187,7 +188,8 @@ nav.navbar.navbar-default {
 }
 
 .menu--iris .menu__item--current .menu__link,.menu__link:hover {
-	color:#00f1ff;
+  color:black;
+  /*color:#00f1ff;*/
 }
 
 .menu--iris .menu__link::before,
@@ -695,7 +697,7 @@ p.w3agile {
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 9999; 
+	z-index: 9999;
 	width: 32px;
 	height: 28px;
 	border: none;
@@ -733,7 +735,7 @@ p.w3agile {
     -ms-transition: 0.5s all;
     -moz-transition: 0.5s all;
     cursor: pointer;
-} 
+}
 .icon-box:hover {
     background: #000;
 	transition:0.5s all;
@@ -752,11 +754,11 @@ p.w3agile {
     float: left;
     width: 12.5%;
     height: 115px;
-    padding: 10px; 
+    padding: 10px;
     line-height: 1.4;
-    text-align: center;  
+    text-align: center;
     font-size: 12px;
-    list-style-type: none;	
+    list-style-type: none;
 }
 .codes .bs-glyphicons .glyphicon {
     margin-top: 5px;
@@ -774,7 +776,7 @@ p.w3agile {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 	color: #777;
-} 
+}
 .codes .bs-glyphicons .glyphicon-class {
     display: block;
     text-align: center;
@@ -831,7 +833,7 @@ h3.agileits-icons-title {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 	color: #777;
-} 
+}
 .bs-glyphicons .glyphicon-class {
     display: block;
     text-align: center;
@@ -942,7 +944,7 @@ li.list-group-item1 {
 .label {
 	font-weight: 300 !important;
 	border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
@@ -2640,7 +2642,7 @@ p.w3layouts_para {
 .agile_services_grid {
     text-align: center;
     padding: 0;
-} 
+}
 .choose {
     padding: 2em 0;
 }
