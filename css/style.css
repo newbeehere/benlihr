@@ -2674,3 +2674,9 @@ p.w3layouts_para {
     min-height: 250px;
 }
 }
+
+
+.foottext{
+  color:grey;
+  font-size:11px;
+}
